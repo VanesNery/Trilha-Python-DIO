@@ -1,0 +1,16 @@
+[project]
+name = "desenvolvimento-fullstack-django"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Vanessa Nery",email = "nery_van@hotmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "django"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
